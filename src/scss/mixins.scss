@@ -1,0 +1,20 @@
+@mixin text-head {
+    font-size: 4.2rem;
+    line-height: (50 / 42);
+}
+@mixin text-title {
+    font-size: 3.2rem;
+    line-height: (38 / 32);
+}
+@mixin text-subheader {
+    font-size: 2.4rem;
+    line-height: (28 / 24);
+}
+@mixin text-small {
+    font-size: 1.4rem;
+    line-height: (17 / 14);
+}
+@mixin text-body {
+    font-size: 1.8rem;
+    line-height: (21 / 18);
+}
