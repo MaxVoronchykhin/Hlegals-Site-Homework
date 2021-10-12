@@ -2,8 +2,9 @@
     width: 1320px;
     margin-left: auto;
     margin-right: auto;
-    background-color: yellowgreen;
 }
 .hero {
-    max-height: 100vh;
+    height: 100vh;
+    background-image: url("../pics/bg.png"), url("../pics/hero_bg.png");
+    background-size: cover;
 }
