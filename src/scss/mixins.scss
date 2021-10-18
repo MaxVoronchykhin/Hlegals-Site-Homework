@@ -18,3 +18,16 @@
     font-size: 1.8rem;
     line-height: (21 / 18);
 }
+
+
+
+@mixin media-tablet {
+    @media (max-width: 1280px) {
+        @content;
+    }
+}
+mixin media-phone {
+    @media (max-width: 767px) {
+        @content;
+    }
+}
