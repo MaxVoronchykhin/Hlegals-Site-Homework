@@ -1,16 +1,24 @@
 .container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
     width: 1320px;
     margin-left: auto;
     margin-right: auto;
 }
 .hero {
+    display: flex;
+    flex-direction: column;
     height: 100vh;
-    background-image: url("../pics/bg.png"), url("../pics/hero_bg.png");
-    background-size: cover;
+    background-image: url("../pics/hero_bg.png"), url("../pics/bg.png");
+    background-size: 40%, cover;
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
 }
 .header-wrapper {
     display: flex;
     flex-direction: column;
+    
 }
 .logo {
     width: 155px;
@@ -19,9 +27,8 @@
 .header {
     display: flex;
     justify-content: space-between;
-    align-self: center;
     padding-top: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 .header-info {
     display: flex;
@@ -37,10 +44,9 @@
     font-family: Roboto;
     font-weight: 500;
     font-style: normal;
-    font-size: 1.8rem;
-    line-height: 1.2;
     color: white;
     text-decoration: none;
+    @include text-body;
 }
 .langs__txt {
     font-family: Roboto;
@@ -67,3 +73,21 @@
     color: white;
     text-decoration: none;
 }
+.hero-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+}
+.hero-content__txt {
+    width: 600px;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 3.8rem;
+    line-height: 1.2;
+    color: white;
+}
+
