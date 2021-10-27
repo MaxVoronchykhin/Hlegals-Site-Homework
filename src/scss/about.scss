@@ -1,0 +1,16 @@
+.about {
+    background-image: url(../pics/Bg_servise.png);
+    padding-top: 80px;
+}
+.about-experience {
+    display: grid;
+    grid-template-columns: 45fr 55fr;
+}
+.text-primary {
+    font-family: Roboto;
+    font-weight: 500;
+    font-style: bold;
+    color: Gradient / Text Red Reversed;
+    @include text-head;
+
+}
