@@ -65,6 +65,9 @@ html,
 body {
   font-size: 10px; }
 
+a {
+  text-decoration: none; }
+
 .container {
   display: flex;
   flex-direction: column;
@@ -159,15 +162,14 @@ body {
 
 .about {
   background-image: url(../pics/Bg_servise.png);
-  padding-top: 80px; }
+  padding-top: 80px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px; }
 
 .about-experience {
   display: grid;
   grid-template-columns: 45fr 55fr;
   margin-bottom: 80px; }
-
-.text-primary {
-  color: Gradient / Text Red Reversed; }
 
 .experience-list__item {
   font-family: Roboto;
@@ -203,3 +205,55 @@ body {
   color: #FFFFFF;
   font-size: 2.1rem;
   line-height: 1.43; }
+
+.about-service__link {
+  font-family: Roboto;
+  font-weight: 300;
+  font-style: normal;
+  color: #FFFFFF;
+  opacity: 50%;
+  font-size: 1.4rem;
+  line-height: 1.21429; }
+
+.text-primary {
+  font-family: Roboto;
+  font-weight: 500;
+  font-style: bold;
+  color: var(--color-accent);
+  margin-top: 20px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  font-size: 4.2rem;
+  line-height: 1.19048; }
+
+.service-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 80px; }
+
+.service-list__item {
+  width: 413px;
+  height: 285px; }
+
+.service-list__pics {
+  background-color: white;
+  border-radius: 14px;
+  margin-bottom: 20px; }
+
+.service-list__subheader {
+  font-family: Roboto;
+  font-weight: 500;
+  font-style: normal;
+  color: #24A3FF;
+  font-size: 2.4rem;
+  line-height: 1.16667;
+  margin-bottom: 15px; }
+
+.service-list__text {
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.8rem;
+  line-height: 1.4;
+  color: #FFFFFF; }
