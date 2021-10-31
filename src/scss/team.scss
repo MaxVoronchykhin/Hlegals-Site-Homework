@@ -1,0 +1,47 @@
+.team-img {
+    width: 31.29%;
+    margin-right: 40px;
+}
+.team-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 51px;
+    border-radius: 8px;
+    margin-bottom: 77px;
+    background-color: #F5F5FA;
+}
+.title-caps {
+    font-family: Roboto;
+    font-weight: 300;
+    font-style: normal;
+    color: #24A3FF;
+    @include text-small;
+}
+.team-content {
+    padding-top: 40px;
+}
+.team-content__txt {
+    font-family: Roboto;
+    font-weight: 700;
+    font-style: bold;
+    color: var(--color-accent);
+    padding-top: 10px;
+    margin-bottom: 20px;
+    @include text-head; 
+}
+.team-content__description {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: normal;
+    color: #B3B3BA;
+    @include text-body; 
+    margin-bottom: 5px;
+}
+.team-content__position {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.6rem;
+    line-height: 1.4;
+    color: #B3B3BA;
+}
