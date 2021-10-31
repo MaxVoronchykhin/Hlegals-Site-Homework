@@ -1,0 +1,18 @@
+.partners-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.partners-list__pic {
+    width: 100%;
+}
+.title-caps--centr {
+    font-family: Roboto;
+    font-weight: 300;
+    font-style: normal;
+    color: #323264;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    @include text-small;
+}
