@@ -1,0 +1,71 @@
+.footer {
+    background-color: #F5F5FA;
+}
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 34px;
+    padding-bottom: 40px;
+}
+.footer-info {
+    display: flex;
+    flex-direction: column;
+}
+.footer-adress {
+    display: flex;
+    flex-direction: row;
+    gap: 47px;
+}
+.facebook-link__logo {
+    width: 38px;
+}
+.footer-adress__location {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.6rem;
+    line-height: 1.2;
+    color: #323264;
+    margin-bottom: 22px;
+}
+.footer-adress__map {
+    font-family: Roboto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #24A3FF;
+}
+.footer-contact {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.contact-phone {
+    font-family: Roboto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1.6rem;
+    line-height: 1.2;
+    color: #46466E;
+    align-self: center;
+}
+.contact-mail {
+    font-family: Roboto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1.6rem;
+    line-height: 1.2;
+    color: #24A3FF;
+    align-self: center;
+}
+.footer_company {
+    font-family: Roboto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.6rem;
+    line-height: 1.2;
+    color: #B3B3BA;;
+    align-self: flex-start;
+}
