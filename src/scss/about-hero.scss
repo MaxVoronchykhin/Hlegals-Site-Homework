@@ -15,6 +15,7 @@
     justify-content: space-between;
     padding-top: 50px;
     padding-bottom: 30px;
+    margin-bottom: 70px;
 }
 .about-header-wrapper {
     display: flex;
@@ -101,4 +102,41 @@
     width: 48px;
     height: 47px;
     padding-left: 4px;
+}
+.about-txt__primary {
+    @include text-head;
+    color: #F0145A;
+    margin-bottom: 20px;
+}
+.about-txt__secondary {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.1rem;
+    line-height: 1.4;
+    color: #000000; 
+    margin-bottom: 20px;
+}
+.about-hero-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.about-hero-content__wrapper {
+    width: 1095px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about-hero-content__txt {
+    border-right: solid 4px #E6E6F0;
+    padding-right: 42px;
+}
+.about-achivments {
+    padding-left: 30px;
+}
+.achivments-logo {
+    margin-bottom: 10px;
+}
+.achivments-txt {
+    @include text-body;
+    color: #323264;
 }
