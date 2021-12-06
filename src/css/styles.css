@@ -540,8 +540,8 @@ a {
 
 .footer-contact {
   display: flex;
-  justify-content: space-between;
-  flex-direction: row; }
+  flex-direction: row;
+  gap: 20px; }
 
 .contact-phone {
   font-family: Roboto;
@@ -567,5 +567,110 @@ a {
   font-style: normal;
   font-size: 1.6rem;
   line-height: 1.2;
+  color: #B3B3BA; }
+
+.footer-llc {
+  display: flex; }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 1320px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.about-logo {
+  width: 155px;
+  height: 62px; }
+
+.about-header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 30px; }
+
+.about-header-wrapper {
+  display: flex;
+  flex-direction: column; }
+
+.about-header-text-wrapper {
+  display: flex; }
+
+.about-langs__txt {
+  font-family: Roboto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.2rem;
+  line-height: 1.2;
+  color: #B3B3BA; }
+
+.about-heder-info {
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.2;
+  color: white; }
+
+.about-tel {
+  font-family: Roboto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.2;
   color: #B3B3BA;
-  align-self: flex-start; }
+  text-decoration: none; }
+
+.about-nav-list {
+  display: flex;
+  justify-content: end;
+  gap: 15px; }
+
+.about-header-info {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 16px; }
+
+.about-heder-txt {
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.2;
+  color: #B3B3BA; }
+
+.about-nav-list {
+  display: flex;
+  justify-content: end;
+  gap: 15px; }
+
+.about-nav-list__link {
+  font-family: Roboto;
+  font-weight: 500;
+  font-style: normal;
+  color: #24A3FF;
+  text-decoration: none;
+  font-size: 1.8rem;
+  line-height: 1.16667; }
+
+.about-nav-list__link-selected {
+  color: #F0145A;
+  text-decoration: underline; }
+
+.header-link__about {
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3.8rem;
+  line-height: 1.18;
+  color: #323264;
+  text-align: center; }
+
+.about-logo__slash {
+  padding-left: 4px;
+  padding-right: 4px; }
+
+.about-logo__symbslash {
+  width: 48px;
+  height: 47px;
+  padding-left: 4px; }

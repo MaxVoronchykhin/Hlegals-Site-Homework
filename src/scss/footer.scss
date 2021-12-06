@@ -39,8 +39,8 @@
 }
 .footer-contact {
     display: flex;
-    justify-content: space-between;
     flex-direction: row;
+    gap: 20px;
 }
 .contact-phone {
     font-family: Roboto;
@@ -66,6 +66,8 @@
     font-style: normal;
     font-size: 1.6rem;
     line-height: 1.2;
-    color: #B3B3BA;;
-    align-self: flex-start;
+    color: #B3B3BA;
+}
+.footer-llc {
+    display: flex;
 }
