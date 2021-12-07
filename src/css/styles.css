@@ -181,7 +181,8 @@ a {
   padding-bottom: 20px;
   border-right: solid 4px #E6E6F0;
   font-size: 4.2rem;
-  line-height: 1.19048; }
+  line-height: 1.19048;
+  font-weight: bold; }
 
 .experience-txt {
   display: flex;
@@ -224,7 +225,8 @@ a {
   padding-right: 40px;
   padding-bottom: 20px;
   font-size: 4.2rem;
-  line-height: 1.19048; }
+  line-height: 1.19048;
+  font-weight: bold; }
 
 .service-list {
   display: grid;
@@ -268,6 +270,7 @@ a {
 .team-container {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   margin-top: 51px;
   border-radius: 8px;
   margin-bottom: 77px;
@@ -292,7 +295,8 @@ a {
   padding-top: 10px;
   margin-bottom: 20px;
   font-size: 4.2rem;
-  line-height: 1.19048; }
+  line-height: 1.19048;
+  font-weight: bold; }
 
 .team-content__description {
   font-family: Roboto;
@@ -679,6 +683,7 @@ a {
 .about-txt__primary {
   font-size: 4.2rem;
   line-height: 1.19048;
+  font-weight: bold;
   color: #F0145A;
   margin-bottom: 20px; }
 
@@ -705,7 +710,8 @@ a {
   padding-right: 42px; }
 
 .about-achivments {
-  padding-left: 30px; }
+  padding-left: 30px;
+  margin-bottom: 100px; }
 
 .achivments-logo {
   margin-bottom: 10px; }
@@ -714,3 +720,26 @@ a {
   font-size: 1.8rem;
   line-height: 1.16667;
   color: #323264; }
+
+.our-team {
+  background-image: url(../pics/pic_team.png);
+  background-size: cover;
+  height: 438px;
+  margin-top: 100px;
+  margin-bottom: 80px;
+  position: relative; }
+
+.team-txt {
+  font-family: Roboto;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 9.6rem;
+  line-height: 1.18;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  letter-spacing: 63px;
+  text-align: center;
+  opacity: 0.9;
+  position: absolute;
+  top: 163px;
+  left: 340px; }

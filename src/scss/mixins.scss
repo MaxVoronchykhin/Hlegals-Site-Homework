@@ -1,6 +1,7 @@
 @mixin text-head {
     font-size: 4.2rem;
     line-height: (50 / 42);
+    font-weight: bold;
 }
 @mixin text-title {
     font-size: 3.2rem;
