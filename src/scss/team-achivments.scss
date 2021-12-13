@@ -1,0 +1,30 @@
+.team-achivments {
+    background-color: #F5F5FA;
+}
+.team-achivments__title {
+    @include text-small;
+    text-align: center;
+    margin-top: 28px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.team-achivments-list {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 78px;
+}
+.team-achivments-list__item {
+    width: 300px;
+    height: 109px;
+    border-radius: 12px;
+    background-color: white;
+}
+.team-achivments-list__pic {
+    display: block;
+    margin: 22px auto;
+    width: 60%; 
+}
+.team-achivments-list-pic__legal {
+    width: 80px;
+    height: 60px;
+}
