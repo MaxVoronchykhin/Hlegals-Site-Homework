@@ -573,9 +573,6 @@ a {
   line-height: 1.2;
   color: #B3B3BA; }
 
-.footer-llc {
-  display: flex; }
-
 .container {
   display: flex;
   flex-direction: column;
@@ -792,3 +789,10 @@ a {
 .team-achivments-list-pic__legal {
   width: 80px;
   height: 60px; }
+
+.about-footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 34px;
+  padding-bottom: 40px; }
