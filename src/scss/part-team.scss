@@ -1,0 +1,36 @@
+.about-txt__part-team {
+    width: 864px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 80px;
+}
+.part-team-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+.part-team__item {
+    width: 413px;
+    height: 568px;
+}
+.part-team__photo {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.part-team__name {
+    @include text-body;
+    color: #323264;
+    margin-bottom: 5px;
+}
+.part-team__position {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.6rem;
+    line-height: 1.4;
+    color: #B3B3BA;
+}
+.part-team-footer {
+    background-color: #F5F5FA;
+}
